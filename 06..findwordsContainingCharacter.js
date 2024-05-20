@@ -15,7 +15,6 @@ let findWordsContaining = function(words, x) {
          }
        }
     }     
-    return result
+    return result;
  }
- console.log(findWordsContaining(["hello", "baby"]));
 
