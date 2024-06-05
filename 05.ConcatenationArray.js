@@ -8,7 +8,7 @@
 //     let result = firstArray.concat(secondArray);
 //     return result;
 // }
-// console.log(ArrayConcatenation([1,2,3,4]));
+// console.log(getConcatenation([1,2,3,4]));
 
 /* second method */
 // let getConcatenation2 = function (num) {
@@ -18,14 +18,14 @@
 //     }
 //     return num;
 // }
-//console.log(ArrayConcatenation([1,2,3]));
+// console.log(getConcatenation2([1,2,3]));
 
 
 /* third method */
-// const getConcatenation3 = (nums) => [...nums,...nums];
-// console.log(getConcatenation3([1,2,3])); 
+// const getConcatenation3 = (num) => [...num,...num];
+// console.log(getConcatenation3([1,2,3,4])); 
 
 /* fourth method */
 // const getConcatenation3 = (nums) => nums.concat(nums);
-// console.log(getConcatenation3([1,2,1]));
+// console.log(getConcatenation3([1,2,3]));
 

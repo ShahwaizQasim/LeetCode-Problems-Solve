@@ -20,6 +20,15 @@ function isPalindrome1(s) {
     return result;
   }
 
+  /* practice */
+  // let test = "mad$##@@!!am";
+  // test = test.replaceAll(/[^a-z0-9]/g, "");
+  // console.log(test.split("").reverse().join(""));
+
+  let test2 = "Shahwaiz";
+  console.log(test2.split(""));
+
+
 //console.log(isPalindrome1("mad&%am")); //true palindrome
 // console.log(isPalindrome1("shahwaiz"));// false not palindrom
 
@@ -36,4 +45,4 @@ function isPalindrome1(s) {
     }
     return false;
   }
-  console.log(isPalindrome2("A man, a plan, a canal: Panama"));
+  //console.log(isPalindrome2("A man, a plan, a canal: Panama"));
