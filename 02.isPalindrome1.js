@@ -36,3 +36,4 @@ console.log(isPalindrome1("level"));
 
 //console.log(isPalindrome1("mad&%am")); //true palindrome
 // console.log(isPalindrome1("shahwaiz"));// false not palindrom
+
