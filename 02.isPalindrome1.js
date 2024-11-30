@@ -20,7 +20,7 @@ function isPalindrome1(s) {
     return result;
   }
 
-console.log(isPalindrome1("level"));
+// console.log(isPalindrome1("level"));
 
 
   /* practice */
@@ -31,9 +31,8 @@ console.log(isPalindrome1("level"));
 
 
   let test2 = "Shahwaiz";
-  console.log(test2.split(""));
+  // console.log(test2.split(""));
 
 
 //console.log(isPalindrome1("mad&%am")); //true palindrome
 // console.log(isPalindrome1("shahwaiz"));// false not palindrom
-

@@ -10,7 +10,7 @@ const ValidAnagram = (s,t) => {
     }
     return false;
 } 
-//console.log(ValidAnagram("anagram","nagaram"));
+console.log(ValidAnagram("anagram","nagaram"));
 
 
 /* 2nd Method */
