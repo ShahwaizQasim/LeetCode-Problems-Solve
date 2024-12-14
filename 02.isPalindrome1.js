@@ -11,27 +11,27 @@
 /* first method */
 
 function isPalindrome1(s) {
-    s = s.toLowerCase();
-    s = s.replaceAll(/[^a-z0-9]/g, ""); // regex tamam non-alphanumeric characters ko remove krta hai
-  
-    let reverseString = s.split("").reverse().join("");
-    let result = s === reverseString;
-  
-    return result;
-  }
+  s = s.toLowerCase();
+  s = s.replaceAll(/[^a-z0-9]/g, ""); // regex tamam non-alphanumeric characters ko remove krta hai
 
-// console.log(isPalindrome1("level"));
+  let reverseString = s.split("").reverse().join("");
+  let result = s === reverseString;
 
+  return result;
+}
 
-  /* practice */
-  let test = "mad$##@@!!am";
-  test = test.replaceAll(/[^a-z0-9]/g, "");
-  console.log(test.split("").reverse().join(""));
-// console.log(test); // madam
+console.log(isPalindrome1("level"));
 
 
-  let test2 = "Shahwaiz";
-  // console.log(test2.split(""));
+/* practice */
+let test = "mad$##@@!!am";
+test = test.replaceAll(/[^a-z0-9]/g, "");
+console.log(test.split("").reverse().join(""));
+console.log(test); // madam
+
+
+let test2 = "Shahwaiz";
+// console.log(test2.split(""));
 
 
 //console.log(isPalindrome1("mad&%am")); //true palindrome

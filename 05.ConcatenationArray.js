@@ -8,7 +8,7 @@ const getConcatenation = (num) => {
     let result = firstArray.concat(secondArray);
     return result;
 }
-// console.log(getConcatenation([1,2,3,4]));
+console.log(getConcatenation([1,2,3,4]));
 
 
 
